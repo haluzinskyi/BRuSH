@@ -1,4 +1,5 @@
 <!DOCTYPE HTML>
+<html lang="ukr">
 <!--
 	Landed by HTML5 UP
 	html5up.net | @n33co
@@ -6,8 +7,10 @@
 -->
 <html>
 	<head>
-		<title>Контакти</title>
+		<title>Форма зв'язку</title>
 		<meta charset="utf-8" />
+		<meta name="description" content="Створення ВЕБ-сайтів" />
+		<meta name="keywords" content="Сайт-визитка, Интернет-магазин, Сайт-візитка, Landing page" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -19,7 +22,7 @@
 
 			<!-- Header -->
 				<header id="header">
-					<h1 id="logo"><a href="index.html">BRuSH</a></h1>
+					<h1 id="logo"><a href="index.html">BR<span id="letter_U">u</span>SH</a></h1>
 					<nav id="nav">
 						<ul>
 							<li><a href="index.html">Головна</a></li>
@@ -29,21 +32,12 @@
 									<li><a href="left-sidebar.html">Інтернет-візитка</a></li>
 									<li><a href="right-sidebar.html">Landing page</a></li>
 									<li><a href="no-sidebar.html">Интернет-магазин</a></li>
-									<li>
-										<a href="#">Також входить</a>
-										<ul>
-											
-											<li><a href="#">Хостінг і домен</a></li>
-											<li><a href="#">Реклама сайта</a></li>
-											
-										</ul>
-									</li>
+									<li><a href="no-sidebar2.html">Корпоративний сайт</a></li>
 								</ul>
 							</li>
-							<li><a href="elements.html">
-Відгуки</a></li>
-<li><a href="index.html">Наші роботи</a></li>
-							<li><a href="elements2.html" class="button special">Замовити</a></li>
+							<li><a href="elements.html">Задати питання</a></li>
+<li><a href="works.html">Наші роботи</a></li>
+							<li><a href="reserve.html" class="button special">Замовити сайт</a></li>
 						</ul>
 					</nav>
 				</header>
@@ -52,12 +46,12 @@
 				<div id="main" class="wrapper style1">
 					<div class="container">
 						<header class="major">
-							<h2>Ви можите залишити відгук про нашу коспанію</h2>
-							<p>Ми будемо дуже вдячні вашим відгукам.</p>
+							<h2>Ви можите залишити відгук про нашу компанію або задати нам запитання.</h2>
+							<p>Ми будемо дуже вдячні вашим відгукам та із задоволенням відповімо на усі ваші запитання.</p>
 						</header>
 
 						
-								
+								<h3>Заповніть анкету</h3>
 								<form method="post" action="#">
 									<div class="row uniform 50%">
 										<div class="6u 12u$(xsmall)">
@@ -68,17 +62,18 @@
 										</div>
 										<div class="12u$">
 											<div class="select-wrapper">
-												<!--<select name="category" id="category">
-													<option value="">- Category -</option>
-													<option value="1">Manufacturing</option>
-													<option value="1">Shipping</option>
-													<option value="1">Administration</option>
-													<option value="1">Human Resources</option>
-												</select>-->
+												<select name="category" id="category">
+													<option value="">- Можливі категорії питань -</option>
+													<option value="1">Як можна добавити інформацію на сайт?</option>
+													<option value="1">Якщо вже існує сайт, чи можна його вдосконалити?</option>
+													<option value="1">Чи можлива знижка?</option>
+													<option value="1">Коли і як ви можите з нами зустрітися?</option>
+													<option value="1">Як можна влаштуватися на роботу в нашу компанію?</option>
+													<!--<option value="1">Інше</option>-->
+												</select>
 											</div>
 										</div>
-										
-									       <div class="4u 12u$(medium)">
+										<div class="4u 12u$(medium)">
 											<input type="radio" id="priority-low" name="priority">
 											<label for="priority-low">Низький рівень</label>
 										</div>
@@ -90,14 +85,11 @@
 											<input type="radio" id="priority-high" name="priority">
 											<label for="priority-high">Високий рівень</label>
 										</div>
-										<!--<div class="6u 12u$(medium)">
-											<input type="checkbox" id="copy" name="copy">
-											<label for="copy">Email me a copy of this message</label>
-										</div>-->
-										<!--<div class="6u$ 12u$(medium)">
-											<input type="checkbox" id="human" name="human" checked>
+										
+										<div class="6u$ 12u$(medium)">
+											<input type="checkbox" id="human" name="human">
 											<label for="human">Я не РОБОТ</label>
-										</div>-->
+										</div>
 										<div class="12u$">
 											<textarea name="message" id="message" placeholder="Напишіть тут..." rows="6"></textarea>
 										</div>
@@ -109,22 +101,32 @@
 										</div>
 									</div>
 								</form>
+								
+								<!--<div class="phone_us">
+									<h3>Або зателефонуйте нам </h3>
+									<ul>
+										Vodafone<li><span class="fa fa-phone  fa-2x"></span>   +380668348444</li>
+										Kyivstar<li><span class="fa fa-phone  fa-2x"></span>   +380986532767</li>
+									</ul>
+								</div>
+								<!--<h3>Можете написати нам у соціальних мережах</h3>-->
 							</section>
 
 						
 					
-				</footer>
+				</div>
+			</div>
 				<footer id="footer">
 					<ul class="icons">
-						<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
+						
 						<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
 						<li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
 						<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
 						<li><a href="#" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
 						<li><a href="#" class="icon alt fa-vk"><span class="label">Email</span></a></li>
 					</ul>
-						<ul class="copyright">
-						<li>&copy; Галузінський Ростислав.</li><li>&copy; Субцельний Олександр.</li>
+					<ul class="copyright">
+						<li>&copy; Галузінський Ростислав.</li><li>&copy; Субцельний Олександр</li>
 					</ul>
 				</footer>
 
